@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tugas Pemograman Web
+        </title>
+    </head>
+<!--body-->
+    <body style="background-color: rgb(248, 245, 240)">
+        <header style="background-color: rgb(226, 136, 218); padding: 8px; text-align: center;">
+            <h3>Selamat Datang di Website Andrian</h3>
+        </header>
+        
+        <nav><!--Navbar/navigasi-->
+            <UL style="background-color: rgba(170, 228, 63, 0.938); padding: 20px;">
+                <a href="http://wwww.adrandrian123.blospot.com"; target="_blank";>Home</a>|
+                <a href="http://adrandrian123.blospot.com"; target="_blank";>Blog</a>|
+                <a href="https://www.instagram.com/andriancimen/"; target="_blank";>About</a>|
+            </UL>
+        </nav>        
+        
+        <form style="background-color: rgb(253, 66, 197); padding: 5mm;"><!--form==>berisi Input dan label-->  
+            <marquee>Selamat Datang</marquee> <!--teks berjalan-->
+            <fieldset style="background-color: darkgray" name="login" style="padding: 3mm">
+                <legend>Form Pendaftaran</legend>
+                <label>Nama:</label><br>
+                <input type="text" name="nama" placeholder="Andrian" size="30" maxlength="10"><br>
+                <label>Nim</label><br>
+                <input type="number" name="nim" placeholder="1901050024" size="30" maxlength="10"><br>
+                <label>Jenis Kelamin</label>
+                <input type="radio" name="gndr" value="Pria"  checked>Pria
+                <input type="radio" name="gndr" value="Wanita" >Wanita
+                <br>
+                <label>Jurusan</label><br>
+                <select name="jurusan">
+                    <option value="D3 SI">D3 Sistem Informasi</option>
+                    <option value="S1 Ilkom">S1 Ilkom</option>
+                    <option value="S1 TI">S1 TI</option>        	
+                </select><br>
+
+                <label>Catatan</label><br>
+                <textarea name="txtcatatan" placeholder="My Name Is Andrian" cols="100" rows="4">
+                </textarea><br>
+            </fieldset>
+
+            <fieldset style="background-color: crimson" name="input" style="padding: 3mm">
+                <legend style="padding: 3mm">Input File</legend>
+                <input type="file" name="foto" accept="image/*">
+            </fieldset>
+            <br>
+            <input type="submit" value="Save">
+            <input type="reset" value="Cancel">
+
+        </form>
+
+        <section style="padding: 5mm; background-color: rgb(248, 66, 90);"><!--tabel-->
+            <h4 style="padding: 5mm; text-align: center">Tabel Data Diri</h4>
+            <table style="width: 50%" border="2px; text-align=center;" align="center">
+                    <tbody>
+                        <tr>
+                            <th>No</th>
+                            <th>Nama</th>
+                            <th>Jurusan</th>
+                            <th>Alamat</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>KURNIADIN</td>
+                            <td>Dosen</td>
+                            <td>PERUMNAS</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>ANDRIAN</td>
+                            <td>D3 SISTEM INFORMASI</td>
+                            <td>Karang Tapen</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </section>
+        <footer style="background-color: rgb(0, 0, 0); padding: 3mm; text-align: center"><!--footer//article-->
+            <font color="pink">Andrian</font><br>
+            <font color="pink">Copyright@1901050024</font>
+        </footer>
+    </body>
+</html>

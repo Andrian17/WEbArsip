@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script LENGAUGE="javaScript" src="D:\Andrian P. Web1\NOTEPAD\js/extern.js"></script>
+  <script LENGAUGE="javaScript">
+    function validasi() {
+      notEmpty(document.getElementById('nama', 'alamat', 'telp', 'password'), 'Data Tidak boleh Kosong');
+      isAlphabet(document.getElementById('nama'), 'Nama Harus Huruf Semua');
+      //nama hanya menggunakan huruf atau alphabet
+      isAlphanumeric(document.getElementById('alamat'), 'Alamat hanya boleh alfanumerik');
+      //alamat hanya angka dan huruf saja
+      isNumber(document.getElementById('telp'), 'Hanya Angka Saja');
+      //no telp hanya boleh angka saja
+      isAlphanumeric(document.getElementById('password'), 'hanya boleh alfanumerik');
+      //password hanya nummeric
+
+    }
+  </script>
+  <title>Form Menggunakan JS</title>
+</head>
+
+<body>
+
+  <form>
+    <pre>
+      Masukkan data diri Anda : <br>
+    Masukkan Nama Anda :
+    <input type="text" id='nama'><br>
+    Alamat :
+    <input type="text" id='alamat' size="50"><br>
+    No Hp :
+    <input type="text" id='telp' size="12"><br>
+    Masukkan password :
+    <input type="text" id='password' maxlength="6"><br>
+    <hr>
+    <input type="submit" id='conf' onclick="validasi()" value="Kirim">
+    <input type="reset" value="Hapus">
+
+  </form>
+
+</body>
+
+</html>

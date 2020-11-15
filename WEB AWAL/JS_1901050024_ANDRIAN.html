@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pemograman web dengan javasript</title>
+        <style type="text/css">
+            p{
+                background-color: aquamarine;
+                padding: 5px;
+            }
+            header{
+                background-color: blueviolet;
+                padding: 5px;
+            }
+            script{
+                background-color: burlywood;
+                padding: 5px;
+            }
+            #second{
+                background-color: rgb(230, 81, 11);
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Pemograman web dengan javasript</header>
+
+        <p>
+            <!--Script Javascript-->
+            <script type="text/javascript" >
+                    alert("Selamat datang di Website Andrian");
+                var nama, nim;
+                nama = "Andrian";
+                nim = "1901050024";
+
+                document.write("Nama  : "+nama+"<br />"+"Nim  : "+nim+"<br />");
+                alamat="Karang tapen    ";
+                alamat2="Jln. Yudhistira    ";
+                almt=alamat+alamat2;
+                document.write("Alamat  : "+almt+"<br />");
+
+                //perulangan dan break
+                document.write("Perulangan <br />");
+                for(i=1; i<=8; i++){
+                    if(i==3){
+                        break;
+                    }
+                    document.write("Saya tampan <br />")
+                }
+                //Perulangan dan continue
+                for(j=1; j<=3; j++){
+                    if(j==2){
+                        continue;
+                    }
+                    alert("Saya mengerjakan tugas")
+                }
+                //percabangan operator logika
+                document.write("Percabangan <br />");
+                if(nama == "Cimen" && nim =="1901050017"){
+                    document.write("Anak pintar, cakep dan rajin")
+                }else{
+                    document.write("Pokoknya paling pintar, cakep dan rajin")
+                }
+
+            </script>
+        </p>
+        <script>
+            document.write("Saya Mengumpulkan tugas tepat waktu...... <br />")
+            //opertor assigment
+            var namaHewan, jumlahKaki;
+            namaHewan="Harimau";
+            jumlahKaki=4
+            document.write("Nama Hewan  : "+namaHewan+"<br />"+"Jumlah Kaki  : "+jumlahKaki+"<br />");
+            //aritmatika, logika dan pembanding
+            document.write("Arithmatika, Logika dan pembanding <br />")
+            y=4;
+            x=10;
+            z=x+y;
+            x+=5;
+            
+            document.write("Z= "+z+"<br />")
+            document.write("10+5 = "+x+"<br />")
+
+            //pengkondisian atau percabangan
+            document.write("<u> Pengkondisian </u> <br />")
+            if(x<7 && y>6){
+                document.write(x-7)
+            }else{
+                document.write("<u> Perbadingan Salah (sengaja) </u> <br />")
+            }
+            var hari="Jumat";
+            var pesan="";
+
+            switch(hari){
+                case "kamis" : {pesan = "Matkul B.Inggris";} break;
+                case "Jumat" : {pesan = "Matkul Pemograman Web";} break;
+                case "Sabtu" : {pesan = "Matkul Struktur Data";} break;
+                default : pesan = "Jam apa sekarang?";
+            }
+            document.write("Hari : "+hari+" <====Pesan ========>"+pesan+"<br />");
+
+            //perulangan break dan continue statement
+            document.write("<b> Perulangan <b> <br/ >")
+            for(i=0; i<5; i++){
+                if(i==3){
+                    break;
+                }
+                document.write("Hello World <br />")
+
+            }
+            var i = 3;
+
+            while(i<=4){
+                if(i==2){
+                    continue;
+                }
+                document.write("<i> Halo Dunia </i> <br />")
+                i++;
+            }
+
+
+        </script>
+    </body>
+</html>

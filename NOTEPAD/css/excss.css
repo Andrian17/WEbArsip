@@ -1,0 +1,84 @@
+/*memberi gaya/warna pada header*/
+
+header{
+	background-color: rgba(243, 116, 57, 0.972);
+	padding: 50px;
+}
+
+/*memberi gaya/warna pada navbar*/
+nav{
+  	background-color: rgb(235, 126, 99);
+  	padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+
+}
+
+li {
+	float: left;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.699);
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+/* mengubah warna saat menu dipilih */
+li a:hover {
+  background-color: rgb(238, 1, 1);
+  color: white;
+}
+
+
+form { 
+  	background-color: rgb(223, 56, 186);
+  	padding: 50px;
+  	font-family: "Times New Roman";
+}
+
+
+fieldset{
+	background-color: rgb(241, 203, 227);
+	padding: 50px;
+}
+/* css dengan class */
+.fieldset2{
+	background-color: blueviolet;
+	padding: 50px;
+}
+
+/*memberi gaya/warna pada footer*/
+footer {
+	background-color: gray;
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 0.1cm;
+	/* font-family: 'Times New Roman', Times, serif; */
+	text-transform: lowercase;
+}
+
+table{
+	background-color: rgb(105, 73, 248);
+	width: 50%;
+	text-align: center;
+}
+
+section{
+	background-color: rgba(160, 18, 189, 0.808);
+	padding: 10px;
+	text-align: center;
+}
+
+.dropcap{
+	border-color: blueviolet;
+	border-style: solid;
+	border-width: thin;
+	background-color: rgb(199, 27, 27);
+	color: #ffffff;
+	font-size: 36pt;
+}

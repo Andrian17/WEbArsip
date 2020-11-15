@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body style="background-color: gold">
+		<p style="background-color: : pink">Form Element</p>
+		
+		<form style="background-color: pink"; border="4px";>
+			<label>Nama				:</label>
+			<input type="text" name="nama" placeholder="masukkan nama" size="30" maxlength="10"><br>
+			<label>Nim				:</label>
+			<input type="text" name="nim" placeholder="nim" size="30" maxlength="10"><br>
+			<label>Password			:</label>
+			<input type="Password" name="pswrd" placeholder="Password" size="30" maxlength="10"><br>
+			<label>Jenis Kelamin	:</label>
+			<input type="radio" name="jeniskelamin" value="Pria"> Pria
+			<input type="radio" name="jeniskelamin" value="Wanita"> Wanita
+			<br>
+			<label>Hoby</label>
+			<input type="checkbox" name="chchhoby" value="bola"> bola
+			<input type="checkbox" name="chchhoby" value="basket"> basket
+			<br>
+			<label>Jurusan			:</label>
+			<select name="lisjurusan">
+				<option value="S1 Ilkom">S1 Ilkom</option>
+				<option value="S1 TI">S1 TI</option>
+				<option value="D3 SI">D3 SI</option>	
+			</select>
+			<br> 
+			<label>Comment</label>
+			<textarea name="txtcatatan" placeholder="grthrhth" cols="80" rows="3">
+			</textarea>
+			<br>
+			<input type="file" name="foto" accept="image/*"><br>
+			<input type="file" name="video" accept="video/*">
+			<br>
+			<input type="hidden" name="rahasia" value="1">
+			<br>
+			<input type="submit" name="savebutton" value="simpan">
+			<input type="reset" name="ulang" value="reset">
+			<input type="button" name="button" value="google"
+			onclick="window.location='http:www.google.com'">
+
+		</form>
+	</body>
+</html>

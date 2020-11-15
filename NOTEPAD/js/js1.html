@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    document.write("Hello World");
+
+    var nm = 2;
+    var bil1, bil2, bilmax;
+    bil1 = 3;
+    bil2 = 4;
+
+    function max(bil1, bil2) {
+      if (bil1 > bil2) {
+        return bil1;
+      } else {
+        return bil2;
+      }
+    }
+    bilmax = max(bil1, bil2);
+    document.write(bilmax);
+  </script>
+  <br>
+  <script type="text/javascript">
+    var nama = "Andri";
+    var tempatkuliah;
+    tempatkuliah = "ubg";
+    document.write(nama, tempatkuliah);
+  </script>
+  <br>
+
+  <script type="text/javascript">
+    //properties
+    mobil = new Object();
+    mobil.nama = "suzuki";
+    mobil.model = "SUV";
+    mobil.warna = "Merah";
+    //method
+    mobil.stater();
+    mobil.belok_kiri();
+    mobill.belok_kanan();
+
+    document.write(mobil.nama);
+    document.write(mobil.warna);
+  </script>
+  <script type="text/javascript">
+    var corp = "educative games";
+    var corpweb = "www.andri.com";
+    var visit = "Kunjungilah www.andri.com";
+    var nilai = "A, B, C, D, E";
+    var hasil = visit.replace("www.andri.com", corp);
+    document.write(hasil);
+    var hasil2 = nilai.split(",");
+    document.write(hasil2);
+
+  </script>
+  <br>
+  <script type="text/javascript">
+    var tkj = ["A", "B", "C", "D", "E"];
+    for (let index = 0; index < tkj.length; index++) {
+      document.write(tkj[index] + "<br>");
+    }
+    var time = new Date();
+    //time.setDate;
+    document.write(time + "<br>");
+
+    function popup() {
+      alert("Hello World");
+    }
+
+  </script>
+  <input type="button" onclick="popup()" value="click disini">
+  <a href="www.andri.com" onmouseover="popup()" onmouseout="">Hover me</a>
+  <br>
+
+  <script type="text/javascript">
+    function confirmation() {
+      var answer = confirm("Tinggalkan Google.com");
+      if (answer) {
+        alert("Selamat Tinggal");
+        window.location = "http=//www.andri.com";
+
+      } else {
+        alert("Terimakasih");
+      }
+    }
+    function data() {
+      var isi = confirm("ISI DATA ANDA?");
+      if (isi) {
+        var diri = ["Nama", "NIM", "Jurusan"];
+        var z = "";
+        var temp = [diri.length];
+
+
+        for (var i in diri) {
+          z = prompt("Masukkan  : " + diri[i]);
+          temp[i] = z;
+        }
+
+        for (var i in temp) {
+          document.write("Data  : " + temp[i] + "</br>");
+        }
+      }
+    }
+  </script>
+  <input type="button" onclick="confirmation()" value="click">
+  <br>
+  <input type="button" onclick="data()" value="isi data">
+  <br>
+  <script LENGAUGE="javaScript" SRC="D:\Andrian P. Web1\NOTEPAD\js/extern.js"></script>
+  <form action="">
+
+    Isi Field : <input type='text' id='reql'>
+    <input type="button" onclick="notEmpty(document.getElementById('reql'), 'Masukkan Data' )" value="Check Field">
+  </form>
+</body>
+
+</html>

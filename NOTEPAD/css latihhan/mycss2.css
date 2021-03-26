@@ -1,0 +1,22 @@
+div{
+	width: 600px;
+	box-sizing: border-box;
+
+}
+.pertama{
+	background-color: salmon;
+	width: 300px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 2px;
+	padding: 10px;
+	background-color: salmon;
+}
+
+.kedua{
+	width: 300px;
+	margin: 5px auto;
+	padding: 5px;
+	background-color: skyblue;
+
+}

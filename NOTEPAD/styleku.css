@@ -1,0 +1,27 @@
+body{
+	color: darkgrey;
+	font-family: arial;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 5px;
+	background-color:#7a6e6e;
+	overflow: auto;
+}
+p{
+	font-size: 28;
+	font-weight: bold;
+	padding: 10px;
+}
+img{
+	width: 420px;
+	height: 360px;
+	float: left;
+	padding: 12px 20px;
+}
+a{
+	color: inherit;
+}

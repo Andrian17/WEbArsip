@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan Dom</title>
+
+	<style type="text/css">
+
+		html, body{
+			height: 100%;
+		}
+
+		body{
+			text-align: center;
+		}
+		.salmon{
+			background-color: salmon;
+
+		}
+		.kotak {
+			width: 50px;
+			height: 50px;
+			margin: 10px auto;
+		}
+		.merah{
+			background-color: red;
+		}
+		.hijau{
+			background-color: green;
+		}
+		.biru{
+			background-color: blue;
+		}
+
+	</style>
+
+</head>
+<body>
+	<h1>Manipulasi Warna</h1>
+	<button name="ubah" class="tombol" id="btn1" type="button">change</button>
+	
+	<div id="awal">
+		<div class="merah kotak"></div>
+		<input type="range" min="0" max="255" value="0" id="merah">
+
+		<div class="hijau kotak"></div>
+		<input type="range" min="0" max="255" value="0" id="hijau">
+
+		<div class="biru kotak"></div>
+		<input type="range" min="0" max="255" value="0" id="biru" >
+	</div>
+	
+
+	<script type="text/javascript" src="scriptLatihan.js"></script>
+</body>
+</html>
